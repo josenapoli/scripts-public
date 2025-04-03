@@ -1,6 +1,6 @@
 # Solicitar credenciales de MikroTik
-$mikrotikIP = "<IP>"
-$usuario = "<USUARIO>"
+$mikrotikIP = "<IP-mikrotik>"
+$usuario = "<USUARIO-mikrotik>"
 $securePassword = Read-Host "Ingrese la contraseña de MikroTik" -AsSecureString
 $password = [System.Runtime.InteropServices.Marshal]::PtrToStringAuto([System.Runtime.InteropServices.Marshal]::SecureStringToBSTR($securePassword))
 
