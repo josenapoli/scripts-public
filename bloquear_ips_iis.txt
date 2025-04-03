@@ -1,0 +1,1 @@
+Requiere el aplicativo plink.exe de Putty(https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html), en la misma carpeta donde se encuentra el script
