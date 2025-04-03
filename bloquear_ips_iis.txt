@@ -1,1 +1,2 @@
 Requiere el aplicativo plink.exe de Putty(https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html), en la misma carpeta donde se encuentra el script
+Al ejecutar el script bloquear_ips_iis.ps1, este va a requerir la contraseña del mikrotik para luego en caso de detectar una IPs, la agregue a la lista negra 'blacklist'
