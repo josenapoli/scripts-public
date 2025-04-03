@@ -1,2 +1,7 @@
+Bloqueo de intentos fallidos de autenticación, bloqueando IPs que detecta en los logs del IIS, y los agrega a un router mikrotik dentro de una address-list llamada 'blacklist' que tiene una regla en el firewall para dropear paquetes al puerto destino 443
+
+Requerimientos:
 Requiere el aplicativo plink.exe de Putty(https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html), en la misma carpeta donde se encuentra el script
+
+Ejecución:
 Al ejecutar el script bloquear_ips_iis.ps1, este va a requerir la contraseña del mikrotik para luego en caso de detectar una IPs, la agregue a la lista negra 'blacklist'
