@@ -1,1 +1,1 @@
-# scripts-public
+Scripts publicos que realizan diferentes acciones
